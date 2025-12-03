@@ -30,7 +30,7 @@ Dataset yang digunakan adalah **Telco Customer Churn** (sumber: IBM/Kaggle). Dat
 - **Info Akun**: Tenor, kontrak, metode pembayaran, tagihan bulanan.
 
 ## 🛠️ Struktur Proyek
-
+```text
 ├── .github/workflows/      # CI Pipeline untuk Otomatisasi Preprocessing
 ├── preprocessing/
 │   ├── automate_preprocessing.py  # Script pembersihan & rekayasa fitur
