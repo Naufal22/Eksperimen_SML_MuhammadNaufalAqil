@@ -1,0 +1,11 @@
+# Abaikan Virtual Environment
+venv/
+__pycache__/
+
+
+*.csv
+*.zip
+data_processed/
+
+# Abaikan file sistem
+.DS_Store
