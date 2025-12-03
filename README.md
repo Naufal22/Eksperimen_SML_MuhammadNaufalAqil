@@ -39,13 +39,14 @@ Dataset yang digunakan adalah **Telco Customer Churn** (sumber: IBM/Kaggle). Dat
 │   ├── modelling.py        # Script training yang terhubung ke DagsHub
 │   └── requirements.txt    # Dependensi library
 └── Monitoring/             # Script inferensi lokal & konfigurasi monitoring
-
+````
 
 ## 📈 Hasil Eksperimen
-Algoritma: Random Forest Classifier
 
-Metrik: Dicatat dan dilacak di DagsHub.
+  * **Algoritma:** Random Forest Classifier
+  * **Metrik:** Dicatat dan dilacak di DagsHub.
+  * **Artefak:** Confusion Matrix & Model Pickle tersimpan di cloud storage DagsHub.
 
-Artefak: Confusion Matrix & Model Pickle tersimpan di cloud storage DagsHub.
 
-Proyek ini merupakan bagian dari modul "Membangun Sistem Machine Learning" oleh Dicoding Indonesia.
+> Proyek ini merupakan bagian dari modul "Membangun Sistem Machine Learning" oleh Dicoding Indonesia.
+
